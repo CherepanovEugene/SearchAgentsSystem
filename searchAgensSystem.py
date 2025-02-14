@@ -67,7 +67,7 @@ def communication_agent(user_id, query):
 def perplexity_agent(query):
     logger = setup_logger("PerplexityAgent")
     logger.info("Запуск агента Perplexity...")
-    return request_openrouter(query, "perplexity/llama-3.1-sonar-huge-128k-online", logger)
+    return request_openrouter(query, "perplexity/sonar-reasoning", logger)
 
 
 # 🔵 Агент для Qwen
